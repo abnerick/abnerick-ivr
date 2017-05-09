@@ -39,7 +39,10 @@ Our goal is test the call flow to know if when the caller answer is 1, call.answ
 	// we execute our app
 	agi.executeAgiScript(opts, call); 
 	// we check our results
-    assertEquals(call.getAnswer(), "Yes");	
+    assertEquals(call.getAnswer(), "Yes");
+    	
+Here we mock AgiOperations to check the call flow but you should read about [Mock types you don't own](https://github.com/mockito/mockito/wiki/How-to-write-good-tests#dont-mock-type-you-dont-own)     
+    
 
 # Clone 
 * Clone the repo
