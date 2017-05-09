@@ -7,12 +7,12 @@ This project shows how to setup [asterisk](http://asterisk-java.org) + [JUnit](h
 
 # Environment
 
-ubuntu 		  IP 192.168.1.2  
+ubuntu 	         
 [Ubuntu Server](https://www.ubuntu.com/download/server) Virtual Box VM which contain our PBX Server  
 ubuntu:/media/files is the mounting point for obelisk:/*path-to*/files  
 audio files are in /var/lib/asterisk/sounds/custom which using a symlink custom -> /media/files 
 
-obelisk       IP 192.168.1.3  
+obelisk        
 Where is placed our asterisk-java application (IVR), and the audio files. BTW I called from this computer using [Jitsi](https://jitsi.org/)  
 obelisk:/*path-to*/files  audio files directory shared using NFS
 
