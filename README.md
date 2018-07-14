@@ -1,5 +1,5 @@
 
-# asterisk-obelisk
+# abnerick-ivr
 
 Welcome!
 This project shows how to setup [asterisk](http://asterisk-java.org) + [JUnit](http://junit.org/junit4/) + [Mockito](http://site.mockito.org/) to test an Interactive Voice Response (IVR) Application
